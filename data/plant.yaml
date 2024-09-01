@@ -1,0 +1,11 @@
+train: train/
+val: valid/
+test: test/
+
+nc: 50
+names: ['aloevera', 'amla', 'amruta balli', 'apple', 'ashwagandha', 'azadirachta indica', 'banana', 'bellpepper', 'betel piper', 'bilimbi', 
+        'broccoli', 'cabbage', 'cantaloupe', 'carrot','cassava', 'cauliflower', 'citrus limon', 'coconut', 'corn', 'cucumber', 
+        'curcuma', 'curry leaf', 'eggplant', 'galangal', 'ganike', 'ginger', 'guava', 'kale', 'longbeans', 'mango', 
+        'melon', 'mentha', 'ocimum sanctum', 'orange', 'paddy', 'papaya', 'peper chili', 'pineapple', 'pomelo', 'potato', 
+        'pumpkin', 'radish', 'rosa sinensis', 'shallot', 'soybeans', 'spinach', 'sweet potatoes', 'tobacco', 'waterapple', 'watermelon']
+
