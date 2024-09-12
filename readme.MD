@@ -6,7 +6,13 @@
 - Học tập, nghiên cứu tại AIoT Lab VN
 - Chạy train model AI, ML, LLM 
 
-## 2. Quy trình và cấu trúc source code 
+## 2. Thông tin về cấu hình, thư viện
+- CUDA Version: 12.2
+- NVIDIA (R) Cuda compiler driver: release 11.5, V11.5.119
+- GPU: 80GB, CPU: 64GB
+- 
+
+## 3. Quy trình và cấu trúc source code 
 - Bước 1: Đẩy source lên github (có thể để private) và add quyền Collaborators account [ducdatit2002](https://www.github.com/ducdatit2002)
 
 - Bước 2: Source code (như mẫu) bao gồm các file sau: 
@@ -39,13 +45,13 @@ pip install -r requirements.txt
 python3 main.py
 ```
 
-## 3. Data cho model training
+## 4. Data cho model training
 
 - Data không có file trên 100MB thì đẩy toàn bộ lên github
 
 - Data nặng thì nén file data và đẩy lên GG Drive (vui lòng nén để khi download xuống data dễ bị lẫn lộn)
 
-## 4. Một số lưu ý:
+## 5. Một số lưu ý:
 - Tuỳ phù thuộc vào lưu lượng task đang chạy, thời gian trả kết quả train là từ 3 - 7 ngày.
 
 - Cung cấp một cấu trúc thư mục rõ ràng và logic cho dữ liệu. Ví dụ: tách dữ liệu thành các thư mục train, validation, và test.
