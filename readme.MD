@@ -10,7 +10,7 @@
 - CUDA Version: 12.2
 - NVIDIA (R) Cuda compiler driver: release 11.5, V11.5.119
 - GPU: 80GB, CPU: 64GB
-- 
+- Conda: 23.1.0
 
 ## 3. Quy trình và cấu trúc source code 
 - Bước 1: Đẩy source lên github (có thể để private) và add quyền Collaborators account [ducdatit2002](https://www.github.com/ducdatit2002)
