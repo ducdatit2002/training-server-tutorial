@@ -7,7 +7,7 @@
 - Chạy train model AI, ML, LLM 
 
 ## 2. Thông tin về cấu hình, thư viện
-- CUDA Version: 12.2
+- CUDA Version: 12.6
 - NVIDIA (R) Cuda compiler driver: release 11.5, V11.5.119
 - GPU: 80GB, CPU: 64GB
 - Conda: 23.1.0
