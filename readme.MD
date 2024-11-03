@@ -49,7 +49,17 @@ python3 main.py
 
 - Data không có file trên 100MB thì đẩy toàn bộ lên github
 
-- Data nặng thì nén file data và đẩy lên GG Drive (vui lòng nén để khi download xuống data dễ bị lẫn lộn)
+- Data nặng thì đẩy lên Hugging face  
+```bash
+## Chunk forder làm 5 phần (có thể thay đổi từ 1 - 10 phụ thuộc vào nặng nhẹ, 1 file khoảng 05gb là phù hợp)
+split -n 5 -d -a 1 names.zip chunk_
+```
+```bash
+## Đăng nhập hugging face bằng hf token => lên hugging face lấy 
+## Push lên bằng lệnh
+huggingface-cli upload ducdatit2002/data-train chunk_<số> --repo-type dataset
+```
+- Có thể đẩy lên Google Drive (Vui lòng Zip lại thành 01 folder)
 
 ## 5. Một số lưu ý:
 - Tuỳ phù thuộc vào lưu lượng task đang chạy, thời gian trả kết quả train là từ 3 - 7 ngày.
